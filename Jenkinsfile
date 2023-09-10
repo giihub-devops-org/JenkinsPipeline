@@ -10,6 +10,19 @@ pipeline{
             }
             
         }
+        stage('Build stage')
+        {
+            steps{
+                sh "echo Build stage"
+            }
+        }
+        stage('Test stage')
+        {
+            steps{
+                sh "echo Test stage"
+            }
+
+        }
 
     }
 
