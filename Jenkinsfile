@@ -1,7 +1,7 @@
 pipeline{
     agent any
     stages{
-        stage('Display Hello')
+        step('Display Hello')
         {
             sh 'echo Hello Jenkins'
         }
